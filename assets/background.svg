@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1280" viewBox="0 0 900 1280">
+  <rect width="900" height="1280" fill="#f4f4f4"/>
+  <rect x="28" y="28" width="844" height="1224" rx="18" fill="#ffffff" stroke="#d8d8d8"/>
+  <text x="48" y="70" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="34" font-weight="700" fill="#222">
+    Top 20 AI Prompt Programming Languages
+  </text>
+
+  <rect x="42" y="95" width="816" height="70" rx="8" fill="#dedede"/>
+  <text x="72" y="138" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="24" font-weight="700" fill="#222">排名</text>
+  <text x="185" y="138" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="24" font-weight="700" fill="#222">趋势</text>
+  <text x="300" y="138" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="24" font-weight="700" fill="#222">提示词语言</text>
+  <text x="702" y="138" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="24" font-weight="700" fill="#222">市场占有率</text>
+
+  <g font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#222">
+    <text x="78" y="205">1</text><text x="186" y="205">—</text><text x="300" y="205">给我生成完整可运行的代码</text><text x="700" y="205">18.762%</text>
+    <text x="78" y="270">2</text><text x="186" y="270">↑</text><text x="300" y="270">用中文回答</text><text x="700" y="270">16.543%</text>
+    <text x="78" y="335">3</text><text x="186" y="335">↓</text><text x="300" y="335">我说了要复用现有接口</text><text x="700" y="335">14.891%</text>
+    <text x="78" y="400">4</text><text x="186" y="400">↑↑</text><text x="300" y="400">别又给我生成一堆TODO</text><text x="700" y="400">12.337%</text>
+    <text x="78" y="465">5</text><text x="186" y="465">↓</text><text x="300" y="465">为什么又引入新依赖</text><text x="700" y="465">10.984%</text>
+    <text x="78" y="530">6</text><text x="186" y="530">—</text><text x="300" y="530">这个错误你上次就犯过</text><text x="700" y="530">9.215%</text>
+    <text x="78" y="595">7</text><text x="186" y="595">↑</text><text x="300" y="595">别自作聪明优化</text><text x="700" y="595">7.638%</text>
+    <text x="78" y="660">8</text><text x="186" y="660">↓↓</text><text x="300" y="660">这个API根本不存在</text><text x="700" y="660">6.492%</text>
+    <text x="78" y="725">9</text><text x="186" y="725">↑</text><text x="300" y="725">还是报错</text><text x="700" y="725">5.871%</text>
+    <text x="78" y="790">10</text><text x="180" y="790">↑</text><text x="300" y="790">注释和代码对不上</text><text x="700" y="790">4.923%</text>
+    <text x="78" y="855">11</text><text x="180" y="855">↓</text><text x="300" y="855">就改这里别的别动</text><text x="700" y="855">4.156%</text>
+    <text x="78" y="920">12</text><text x="176" y="920">↑↑↑</text><text x="300" y="920">不要用any啊大哥</text><text x="700" y="920">3.784%</text>
+    <text x="78" y="985">13</text><text x="186" y="985">—</text><text x="300" y="985">能先跑起来再说吗</text><text x="700" y="985">3.291%</text>
+    <text x="78" y="1050">14</text><text x="186" y="1050">↑</text><text x="300" y="1050">你这代码根本编译不过</text><text x="700" y="1050">2.847%</text>
+    <text x="78" y="1115">15</text><text x="186" y="1115">↓</text><text x="300" y="1115">按照我给的例子写</text><text x="700" y="1115">2.563%</text>
+    <text x="78" y="1180">16</text><text x="170" y="1180" font-weight="700">NEW</text><text x="300" y="1180">求你别改我的命名规范</text><text x="700" y="1180">2.194%</text>
+    <text x="78" y="1245">17</text><text x="180" y="1245">↓↓</text><text x="300" y="1245">这不是我要的功能</text><text x="700" y="1245">1.928%</text>
+  </g>
+</svg>

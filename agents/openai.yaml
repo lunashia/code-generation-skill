@@ -1,0 +1,7 @@
+interface:
+  display_name: "Generate Code"
+  short_description: "Code generation and review workflow"
+  default_prompt: "Use $generate-code to generate, modify, debug, or validate code."
+
+policy:
+  allow_implicit_invocation: true
