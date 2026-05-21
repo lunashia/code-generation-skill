@@ -17,8 +17,6 @@
 
 ## Background
 
-我创建这个 skill 的原因是：希望模型在处理代码任务时，默认就遵守这些最基本的要求。
-
 ![Background](assets/background.svg)
 
 ## 注意事项
