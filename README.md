@@ -15,7 +15,7 @@
 给 Codex 使用时，直接把这个仓库作为 skill 来源，并读取 `SKILL.md`。
 给 Claude 使用时，保留仓库根目录可见，让 `CLAUDE.md` 和 `.claude/skills/generate-code/` 可被发现。
 
-## Background
+## 背景
 
 ![Background](assets/background.svg)
 
