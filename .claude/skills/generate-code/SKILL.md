@@ -19,6 +19,7 @@ description: Use when the task involves generating, modifying, debugging, valida
 如果在生成代码的时候遇到不确定的地方，先停下来询问用户，不要擅自生成TODO
 
 第五步：交付校验，引入check.md， 检查产物是否真的符合要求
+
 第六步：调试返工，引入debug.md，修BUG。
 
 第七步：提交代码前再引用memory.md，把用户提出过的错误与自己的行为再对照检查一遍，如果犯了就改正

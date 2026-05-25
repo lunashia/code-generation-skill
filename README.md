@@ -9,11 +9,20 @@
 - `CLAUDE.md`：Claude 的项目级说明
 - `.claude/skills/generate-code/`：Claude 的 skill 入口
 - `agents/openai.yaml`：Codex 的界面元数据
+- `scripts/check-sync.ps1`：Codex/Claude 双份文件同步检查脚本
 
 ## 使用方式
 
 给 Codex 使用时，直接把这个仓库作为 skill 来源，并读取 `SKILL.md`。
 给 Claude 使用时，保留仓库根目录可见，让 `CLAUDE.md` 和 `.claude/skills/generate-code/` 可被发现。
+
+## 同步检查
+
+运行以下命令检查 Codex 和 Claude 两套 skill 文件是否漂移：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\check-sync.ps1
+```
 
 ## 背景
 
