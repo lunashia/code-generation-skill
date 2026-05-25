@@ -1,1 +1,1 @@
-- 在每个新workspace下配置 workspace 时都仔细阅读 https://developers.openai.com/codex/learn/best-practices 这篇文章
+﻿- 在每个新workspace下配置 workspace 时都仔细阅读 https://developers.openai.com/codex/learn/best-practices 这篇文章

@@ -1,4 +1,4 @@
-# Generate Code Skill
+﻿# Generate Code Skill
 
 这个仓库封装了一套给 Codex 和 Claude 共用的代码生成工作流 skill。
 

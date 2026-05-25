@@ -1,4 +1,4 @@
----
+﻿---
 name: generate-code
 description: Use when the task involves generating, modifying, debugging, validating, or reviewing code. Do not use for non-code tasks.
 ---
