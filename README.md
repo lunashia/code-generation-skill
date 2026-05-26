@@ -28,11 +28,11 @@
 powershell -ExecutionPolicy Bypass -File .\scripts\check-sync.ps1
 ```
 
-### GitHub Traffic
-
-![GitHub Traffic](assets/traffic.svg)
-
 ## 注意事项
 
 - `SKILL.md`、`References/`、`CLAUDE.md` 和 `.claude/skills/generate-code/` 要保持同步。
 - 不要提交密钥、token 或本机专属路径。
+
+### GitHub Traffic
+
+![GitHub Traffic](assets/traffic.svg)
