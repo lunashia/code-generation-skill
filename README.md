@@ -32,9 +32,6 @@ powershell -ExecutionPolicy Bypass -File .\scripts\check-sync.ps1
 
 ![GitHub Traffic](assets/traffic.svg)
 
-
-=======
->>>>>>> cab039d7de7341c15bbd3cfad26ad3630f8aa999
 ## 注意事项
 
 - `SKILL.md`、`References/`、`CLAUDE.md` 和 `.claude/skills/generate-code/` 要保持同步。
