@@ -1,6 +1,10 @@
 ﻿# Generate Code Skill
 
-这个仓库封装了一套给 Codex 和 Claude 共用的代码生成工作流 skill。
+是一套供 Codex 和 Claude 共用的代码生成工作流约束 skill 😂
+
+## 背景
+
+![Background](assets/background.svg)
 
 ## 目录结构
 
@@ -24,10 +28,6 @@
 powershell -ExecutionPolicy Bypass -File .\scripts\check-sync.ps1
 ```
 
-## 背景
-
-![Background](assets/background.svg)
-
 ## GitHub Traffic
 
 ![GitHub Traffic](assets/traffic.svg)
@@ -35,6 +35,8 @@ powershell -ExecutionPolicy Bypass -File .\scripts\check-sync.ps1
 统计由 GitHub Actions 每 6 小时自动更新一次，展示最近 14 天的 git clones 和 visitors。
 需要在仓库 Secrets 中配置有 repository traffic 读取权限的 `TRAFFIC_TOKEN`。
 
+=======
+>>>>>>> cab039d7de7341c15bbd3cfad26ad3630f8aa999
 ## 注意事项
 
 - `SKILL.md`、`References/`、`CLAUDE.md` 和 `.claude/skills/generate-code/` 要保持同步。
