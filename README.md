@@ -28,12 +28,10 @@
 powershell -ExecutionPolicy Bypass -File .\scripts\check-sync.ps1
 ```
 
-## GitHub Traffic
+### GitHub Traffic
 
 ![GitHub Traffic](assets/traffic.svg)
 
-统计由 GitHub Actions 每 6 小时自动更新一次，展示最近 14 天的 git clones 和 visitors。
-需要在仓库 Secrets 中配置有 repository traffic 读取权限的 `TRAFFIC_TOKEN`。
 
 =======
 >>>>>>> cab039d7de7341c15bbd3cfad26ad3630f8aa999
