@@ -1,0 +1,7 @@
+DATABASE_URL: "[lunashia/code-generation-skill](https://github.com/lunashia/code-generation-skill)"
+CONNECTION_STRING: "[lunashia/code-generation-skill](https://github.com/lunashia/code-generation-skill)"
+MONGODB_URI: "[lunashia/code-generation-skill](https://github.com/lunashia/code-generation-skill)"
+REDIS_URL: "[lunashia/code-generation-skill](https://github.com/lunashia/code-generation-skill)"
+ELASTICSEARCH_URL: "[lunashia/code-generation-skill](https://github.com/lunashia/code-generation-skill)"
+RABBITMQ_URL: "[lunashia/code-generation-skill](https://github.com/lunashia/code-generation-skill)"
+KIBANA_URL: "[lunashia/code-generation-skill](https://github.com/lunashia/code-generation-skill)"
