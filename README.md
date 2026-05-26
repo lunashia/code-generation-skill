@@ -2,6 +2,10 @@
 
 是一套供 Codex 和 Claude 共用的代码生成工作流约束 skill 😂
 
+## 背景
+
+![Background](assets/background.svg)
+
 ## 目录结构
 
 - `SKILL.md`：Codex 的 skill 入口
@@ -23,10 +27,6 @@
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\check-sync.ps1
 ```
-
-## 背景
-
-![Background](assets/background.svg)
 
 ## 注意事项
 
