@@ -1,0 +1,20 @@
+﻿{
+    "repository":  "",
+    "views":  {
+                  "days":  [
+
+                           ],
+                  "uniques":  "-",
+                  "count":  "-"
+              },
+    "clones":  {
+                   "days":  [
+
+                            ],
+                   "uniques":  "-",
+                   "count":  "-"
+               },
+    "window":  "last 14 days",
+    "status":  "Run the GitHub Actions workflow to publish live repository traffic.",
+    "updated_at":  "pending first update"
+}

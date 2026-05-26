@@ -1,0 +1,19 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="620" height="150" viewBox="0 0 620 150" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub Traffic</title>
+  <desc id="desc">Repository traffic for clones and visitors over the last 14 days.</desc>
+  <rect width="620" height="150" rx="8" fill="#0d1117"/>
+  <rect x="1" y="1" width="618" height="148" rx="7" fill="none" stroke="#30363d"/>
+  <text x="28" y="34" fill="#f0f6fc" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="600">GitHub Traffic</text>
+  <text x="28" y="58" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Last 14 days - pending first update</text>
+  <g transform="translate(28 82)">
+    <text fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Git clones</text>
+    <text y="32" fill="#f0f6fc" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700">-</text>
+    <text x="110" y="31" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">- unique</text>
+  </g>
+  <g transform="translate(330 82)">
+    <text fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Visitors</text>
+    <text y="32" fill="#f0f6fc" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700">-</text>
+    <text x="110" y="31" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">- unique</text>
+  </g>
+  <text x="28" y="133" fill="#6e7681" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">Run the GitHub Actions workflow to publish live repository traffic.</text>
+</svg>

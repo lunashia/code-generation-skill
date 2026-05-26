@@ -1,0 +1,30 @@
+name: Update GitHub traffic
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-traffic:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate traffic assets
+        shell: pwsh
+        env:
+          TRAFFIC_TOKEN: ${{ secrets.TRAFFIC_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: ./scripts/update-traffic.ps1
+
+      - name: Commit traffic assets
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs: update github traffic"
+          file_pattern: assets/traffic.svg assets/traffic.json
