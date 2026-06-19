@@ -33,19 +33,3 @@ powershell -ExecutionPolicy Bypass -File .\scripts\check-sync.ps1
 - `SKILL.md`、`References/`、`CLAUDE.md` 和 `.claude/skills/generate-code/` 要保持同步。
 - 不要提交密钥、token 或本机专属路径。
 
-### GitHub Traffic
-
-![GitHub Traffic](assets/traffic.svg)
-
-## 可感知结果
-
-这个 skill 的目标不是让 AI 只说“代码写完了”，而是让每次代码交付都能被用户验收。
-
-一次理想的交付结果应该包含：
-
-- 需求 checklist：把用户真正要的结果拆成可检查条目
-- 修改摘要：说明只改了哪些和本次需求直接相关的内容
-- 验证结果：写清楚运行过什么命令，结果是什么
-- 已知限制：说明还有哪些没有验证到，或者明确写“暂无”
-
-也就是说，用户不需要先读完整个 diff，先看最终交付单就能判断：这次改动是否符合要求、是否跑过验证、还有没有残余风险。
